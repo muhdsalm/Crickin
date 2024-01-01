@@ -76,4 +76,12 @@ export class Over {
         return this.getTotalRuns() / -1
     }
 
+    /**
+     * Get the total over structure of the over.
+     * @returns The total over structure
+     */
+    getScore() {
+        return [this.first_batsman_score, this.second_batsman_score]
+    }
+
 }
