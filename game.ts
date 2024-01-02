@@ -261,6 +261,14 @@ export class Game {
         return this.battingTeam
     }
 
+    /**
+     * Get the team that is currently bowling
+     * @returns The team that is currently bowling (as a Team)
+     */
+    getBowlingTeam() {
+        return this.bowlingTeam
+    }
+
 
     /**
      * Get the number of the over we are on
