@@ -202,7 +202,7 @@ export class Game {
         this.totalOvers.push(this.currentOver)
         this.currentOver = new Over()
 
-        if (this.currentOverNumber >= (this.overNumber! - 1)) {
+        if (this.currentOverNumber >= this.overNumber!) {
             this.switchTeams()
         }
 
